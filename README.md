@@ -1,5 +1,4 @@
-# random
-a dump of stuff i've made
+# code dump
 
 ### decodeurl.cpp
 pretty self explanatory, compiled with libcurl and the likes
