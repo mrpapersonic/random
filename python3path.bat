@@ -8,4 +8,7 @@ if not exist %temp%\python3path\log4net.dll powershell "iwr -OutFile "%temp%\pyt
 %temp%\python3path\pathed.exe /append %userprofile%\AppData\Local\Programs\Python\Python39 /user
 %temp%\python3path\pathed.exe /append %userprofile%\AppData\Local\Programs\Python\Python39\Scripts /user
 echo Python added to path!
+echo.
+echo Performing cleanup...
+del /f /s /q %temp%\python3path > nul
 pause
