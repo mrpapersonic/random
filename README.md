@@ -19,7 +19,7 @@ a bad peardeck sentence generator, will only accept inputs from 5-6 characters. 
 a batch script to put python3 in the path. made this cause my friend didn't know how paths worked
 
 ### tenormoment.bat
-another batch script that was made primarily to spam the ytpmv tag on tenor. it gets a mp4 file (specified) and converts every 5 seconds to gif.<br>it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose
+another batch script that was made primarily to spam the ytpmv tag on tenor. it gets a mp4 file (specified) and converts every 5 seconds to gif.<br>~~it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose~~ done
 
 ### win95kg.cpp
 iirc the oem key only works some of the time, i don't even remember why i made it. it also has shitty function names that i might clean up in the future
