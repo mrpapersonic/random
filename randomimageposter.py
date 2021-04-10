@@ -8,7 +8,7 @@ async def on_ready():
     print("Ready!")
 
 @client.command()
-async def random(ctx):
+async def post(ctx):
     files = glob.glob("*.png")
     files.extend(glob.glob("*.jpg"))
     files.extend(glob.glob("*.gif"))
