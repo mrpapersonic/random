@@ -18,8 +18,8 @@ a bad peardeck sentence generator, will only accept inputs from 5-6 characters. 
 ### python3path.bat
 a batch script to put python3 in the path. made this cause my friend didn't know how paths worked
 
-### randomimageposter.py
-posts random images of the file formats png, jpg, and gif
+### pixivimageposter.py
+posts images downloaded with pixivutil2 and interprets the id and image number from the filename
 
 ### tenormoment.bat
 another batch script that was made primarily to spam the ytpmv tag on tenor. it makes gifs of every 5 seconds of a given video file.<br>~~it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose~~ done
