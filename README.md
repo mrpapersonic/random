@@ -6,6 +6,9 @@ pretty self explanatory, compiled with libcurl and the likes
 ### garf.cpp
 this was a joke program i made when garf wanted to put ads on 1123.best
 
+### intro.py
+originally created to extract all of the yuru yuri intros
+
 ### mmltonsf.bat
 this is a conversion of a script from bash to batch, it just makes compiling nsfs from mmls easier
 
