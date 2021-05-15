@@ -1,7 +1,7 @@
 import os
 
 amt = 1
-for subdir, dirs, files in os.walk("./"):
+for files in os.walk("./"):
     for file in files:
         ext = os.path.splitext(file)[-1].lower()
         if ext == ".mkv":
