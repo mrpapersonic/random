@@ -6,6 +6,10 @@ pretty self explanatory, compiled with libcurl and the likes
 ### garf.cpp
 this was a joke program i made when garf wanted to put ads on 1123.best
 
+### getlist.py
+gets episode names from MAL, thanks to the wonderful people who run the [Jikan](https://jikan.moe/) api<br>
+meant to be used with rename.py
+
 ### intro.py
 originally created to extract all of the yuru yuri intros
 
