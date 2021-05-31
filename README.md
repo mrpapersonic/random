@@ -24,9 +24,14 @@ posts images downloaded with pixivutil2 and interprets the id and image number f
 ### python3path.bat
 a batch script to put python3 in the path. made this cause my friend didn't know how paths worked
 
+### remuxaudio.py
+originally made cause i was pissy over some mkv files having thumbnails and different defaults from what i liked<br>
+could've probably been made in batch but whatever, it was easier to do in python lmao
+
 ### rename.py
 originally created for lucky star, this gets a ton of episode names (or whatever) from a list and renames files accordingly<br>
 made this mainly cause i'm lazy and don't want to do manual renaming
+
 
 ### tenormoment.bat
 another batch script that was made primarily to spam the ytpmv tag on tenor. it makes gifs of every 5 seconds of a given video file.<br>~~it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose~~ done
