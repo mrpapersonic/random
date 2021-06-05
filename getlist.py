@@ -1,6 +1,8 @@
 import urllib.request, json, re, sys
 
-id = input("What is the MyAnimeList ID for your anime?: ")
+id = sys.argv[1]
+if not 'id' in locals() or not 'id' in globals():
+    id = input("What is the MyAnimeList ID for your anime?: ")
 try:
     temp = int(id)
 except:
@@ -10,11 +12,11 @@ except:
 with urllib.request.urlopen(f"https://api.jikan.moe/v3/anime/{str(id)}/episodes") as url:
     data = json.loads(url.read().decode())
     count = 0
+    f = open("list.txt", "w", encoding="utf-8")
+    f.write("")
+    f.close()
     for i in range(len(data["episodes"])):
-        if count == 0:
-            f = open("list.txt", "w", encoding="utf-8")
-        else:
-            f = open("list.txt", "a", encoding="utf-8")
+        f = open("list.txt", "a", encoding="utf-8")
         """
         this is really hard to read at first glance so i'll break it down
         it replaces "?" and ":" with legal counterparts so windows stops screaming

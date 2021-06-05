@@ -3,6 +3,9 @@
 ### decodeurl.cpp
 pretty self explanatory, compiled with libcurl and the likes
 
+### deleteautosave.py
+deletes openmpt autosave files, made cause they cluttered up my modules folder
+
 ### garf.cpp
 this was a joke program i made when garf wanted to put ads on 1123.best
 
