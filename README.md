@@ -39,6 +39,8 @@ could've probably been made in batch but whatever, it was easier to do in python
 originally created for lucky star, this gets a ton of episode names (or whatever) from a list and renames files accordingly<br>
 made this mainly cause i'm lazy and don't want to do manual renaming
 
+### sfv.py
+a very lazy implementation of Simple File Validator in python
 
 ### tenormoment.bat
 another batch script that was made primarily to spam the ytpmv tag on tenor. it makes gifs of every 5 seconds of a given video file.<br>~~it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose~~ done
