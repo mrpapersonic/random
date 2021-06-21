@@ -1,10 +1,14 @@
-import os, sys, zlib
+import sys
+import zlib
 
-def crc(filename): return "%X"%(zlib.crc32(open(filename,"rb").read()) & 0xFFFFFFFF)
+
+def crc(filename): return "%X" % (zlib.crc32(
+    open(filename, "rb").read()) & 0xFFFFFFFF)
+
 
 try:
     temp = sys.argv[1]
-except:
+except Exception:
     print("No file specified!")
     sys.exit()
 

@@ -1,4 +1,4 @@
-import os, sys
+import os
 
 count = 0
 for path, folder, files in os.walk("./"):

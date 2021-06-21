@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 
 # valid filename: "[title] - [episode number].mkv"
 for file in os.listdir("./"):

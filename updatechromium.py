@@ -68,7 +68,8 @@ if check_for_file("chromium") == 0:
     sys.exit(1)
 owner = "ungoogled-software"
 repo = "ungoogled-chromium-archlinux"
-json = json.loads(urllib.request.urlopen(f"https://api.github.com/repos/{owner}/{repo}/releases").read())
+json = json.loads(urllib.request.urlopen(
+    f"https://api.github.com/repos/{owner}/{repo}/releases").read())
 check_version(json[0]["tag_name"])
 for i in json[0]["assets"]:
     if i["content_type"] == "application/octet-stream":
