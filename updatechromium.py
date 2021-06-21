@@ -35,12 +35,6 @@ def download_url(url, output_path):
 if check_for_file("chromium") == 0:
     print("Chromium is still running! Exiting...")
     sys.exit(1)
-if check_for_file("zstd") == 2:
-    print("zstd not found! Exiting...")
-    sys.exit(1)
-if check_for_file("tar") == 2:
-    print("tar not found! Exiting...")
-    sys.exit(1)
 OWNER = "ungoogled-software"
 REPO = "ungoogled-chromium-archlinux"
 r = urllib.request.urlopen(f"https://api.github.com/repos/{OWNER}/{REPO}/releases")
