@@ -45,5 +45,8 @@ a very lazy implementation of Simple File Validator in python
 ### [tenormoment.bat](tenormoment.bat)
 another batch script that was made primarily to spam the ytpmv tag on tenor. it makes gifs of every 5 seconds of a given video file.<br>~~it is extremely unorganized, i might remake it later and remove the debug option that stands no purpose~~ done
 
+### [updatechromium.py](updatechromium.py)
+updates ungoogled-chromium on arch linux. requires tqdm for sexy progress bars
+
 ### [win95kg.cpp](win95kg.cpp)
 a windows 95 keygen. iirc the oem key only works some of the time, i don't even remember why i made it. it also has shitty function names that i might clean up in the future
