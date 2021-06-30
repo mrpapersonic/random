@@ -98,7 +98,7 @@ int d() {
 int e() {
     int first_digits;
     int last_digit;
-    int second_segment = 5;
+    int second_segment;
     int sum = 1;
     while (sum % 7 != 0) {
         sum = 0;
@@ -108,10 +108,9 @@ int e() {
             last_digit = rand() % 10;
         }
         std::string second_segment_p1 = (std::to_string(first_digits) + std::to_string(last_digit));
-        second_segment = std::stoi(second_segment_p1);
         for(char &c :second_segment_p1) {
             sum += c - '0';
         }
     }
-    return second_segment;
+    return std::stoi(second_segment_p1);
 }
