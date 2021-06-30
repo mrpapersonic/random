@@ -43,8 +43,7 @@ if source == 'tmdb':
     f.close()
     count = 1
     for i in range(amount):  # this may count as spamming the api but i don't care lol
-        with urllib.request.urlopen(
-            f'https://api.themoviedb.org/3/tv/{str(id)}/season/{season}/episode/{count}?api_key={key}') as url:
+        with urllib.request.urlopen(f'https://api.themoviedb.org/3/tv/{str(id)}/season/{season}/episode/{count}?api_key={key}') as url:
             data = json.loads(url.read().decode())
             f = open("list.txt", "a", encoding="utf-8")
             f.write(data["name"].replace("?", "？").replace(
