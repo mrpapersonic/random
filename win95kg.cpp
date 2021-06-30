@@ -3,7 +3,7 @@
    not sure if this will work fully, but from what i've seen it works well enough
 
    going back on this a few months later, wew this code sucks ass
-   managed to fix the OEM key generation, apparently the medium article i read was wrong
+   fixed the OEM key generation, the medium article i read was wrong about it
 */
 #include <ctime>
 #include <cstdlib>
