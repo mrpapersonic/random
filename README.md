@@ -13,6 +13,10 @@ this was a joke program i made when garf wanted to put ads on 1123.best
 gets episode names from MAL, thanks to the wonderful people who run the [Jikan](https://jikan.moe/) api<br>
 meant to be used with rename.py
 
+### [getskin.py](getskin.py)
+gets a minecraft skin from a username<br>
+meant to be used as reference for a possible future beta 1.7.3 (client-side) mod
+
 ### [intro.py](intro.py)
 originally created to extract all of the yuru yuri intros
 
